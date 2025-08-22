@@ -8,9 +8,6 @@
 
 ---
 
-## 📅 Daily Progress Tracker
-I solve **2 problems every day** 🚀  
-
 ## 📝 Usage
 ```bash
 # Clone the repository
