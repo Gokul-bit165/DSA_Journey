@@ -4,10 +4,10 @@ class Solution(object):
                 digit = 0
                 temp = x
                 while temp != 0:
-                    l = temp % 10
-                    digit = digit * 10 + l
-                    temp = temp // 10
-                if digit == x:
+                    l=temp % 10
+                    digit=digit * 10 + l
+                    temp=temp // 10
+                if digit==x:
                     return True
             else:
                 return False

@@ -3,7 +3,7 @@ class Solution(object):
         s=0
         tot=[]
         for i in range(len(nums)):
-            s = s + nums[i]
+            s=s+nums[i]
             tot.append(s)
         return tot
             
