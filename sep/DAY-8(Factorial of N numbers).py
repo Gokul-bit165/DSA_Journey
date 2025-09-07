@@ -1,0 +1,13 @@
+#find factorial without using factorial function
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        f=1
+        while n:
+            f*=n
+            n-=1
+        return f
+num = int(input("Enter a number: "))
+result = factorial(num)
+print(f"The factorial of {num} is: {result}")
