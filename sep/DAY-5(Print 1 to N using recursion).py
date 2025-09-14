@@ -3,5 +3,6 @@ def print_1_to_n(n):
         print_1_to_n(n - 1)
         print(n)
 
+
 num = int(input("Enter a number: "))
 print_1_to_n(num)
