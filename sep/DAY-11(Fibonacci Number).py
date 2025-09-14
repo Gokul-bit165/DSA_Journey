@@ -6,6 +6,5 @@ def fibonacci_iterative(n):
         a, b = b, a + b
     return sequence
 
-
 num = int(input("Enter the number: "))
 print(fibonacci_iterative(num))
