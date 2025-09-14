@@ -9,7 +9,6 @@ def factorial(n):
             n-=1
         return f
     
-    
 num = int(input("Enter a number: "))
 result = factorial(num)
 print(f"The factorial of {num} is: {result}")
